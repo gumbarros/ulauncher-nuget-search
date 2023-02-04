@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "NuGet Search",
+  "description": "ULauncher extension to search NuGet packages.",
+  "developer_name": "gumbarros",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "nuget_kw",
+      "type": "keyword",
+      "name": "NuGet Search",
+      "description": "Search NuGet packages.",
+      "default_value": "nuget"
+    },
+    {
+      "id": "take",
+      "type": "input",
+      "name": "Max Entries",
+      "description": "Enter the maximum number of matching search results to show, default is 5.",
+      "default_value": 5
+  }
+  ]
+}
