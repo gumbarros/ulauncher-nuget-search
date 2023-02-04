@@ -2,6 +2,8 @@
 
 A Ulauncher extension to search for NuGet packages at [nuget.org](https://nuget.org/).
 
+![image](https://user-images.githubusercontent.com/52143624/216782453-7dadf3df-5177-4d5b-9dc7-78d339b97e4b.png)
+
 
 # Installation
 
